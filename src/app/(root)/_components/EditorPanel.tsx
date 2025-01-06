@@ -9,7 +9,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import useMounted from "@/hooks/useMounted";
 import { useClerk } from "@clerk/nextjs";
-import { EditorPanelSkeleton, EditorViewSkeleton } from "./EditorPanelSkeleton";
+import { EditorPanelSkeleton } from "./EditorPanelSkeleton";
 import ShareSnippetDialog from "./ShareSnippetDialog";
 
 function EditorPanel() {
