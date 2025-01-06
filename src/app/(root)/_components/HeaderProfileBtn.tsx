@@ -8,13 +8,13 @@ function HeaderProfileBtn() {
   return (
     <>
       <UserButton>
-        <UserButton.MenuItems>
+        {/* <UserButton.MenuItems>
           <UserButton.Link
             label="Profile"
             labelIcon={<User className="size-4" />}
             href="/profile"
           />
-        </UserButton.MenuItems>
+        </UserButton.MenuItems> */}
       </UserButton>
 
       <SignedOut>

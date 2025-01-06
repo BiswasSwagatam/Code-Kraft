@@ -27,7 +27,7 @@ export default defineSchema({
   snippetComments: defineTable({
     snippetId: v.id("snippets"),
     userId: v.string(),
-    username: v.string(),
+    userName: v.string(),
     content: v.string(),
   }).index("by_snippet_id", ["snippetId"]),
 
